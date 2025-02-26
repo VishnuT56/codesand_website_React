@@ -33,32 +33,30 @@ function CodeBox() {
 
 
       <div className="five">          
-     
-      <h1 className="title3">Meet a CDE that</h1>
-      <h1 className="title4"> makes an impact</h1>
-      <div className="stats">
-        <div className="stat">
-          <div className="value">5+</div>
-          <div className="bold">hours saved</div>
-          <div className="description"> per developer, per week</div>
+        <h1 className="title3">Meet a CDE that</h1>
+        <h1 className="title4"> makes an impact</h1>
+        <div className="stats">
+          <div className="stat">
+            <div className="value">5+</div>
+            <div className="bold">hours saved</div>
+            <div className="description"> per developer, per week</div>
+          </div>
+          <div className="stat">
+            <div className="value">90%</div>
+            <div className="bold">reduction</div>
+            <div className="description"> in dev onboarding time</div>
+          </div>
+          <div className="stat">
+            <div className="value">60%</div>
+            <div className="description">of cloud workloads will be built and deployed using CDEs by 2026, <u>according to Gartner</u></div>
+          </div>
         </div>
-        <div className="stat">
-          <div className="value">90%</div>
-          <div className="bold">reduction</div>
-          <div className="description"> in dev onboarding time</div>
-        </div>
-        <div className="stat">
-          <div className="value">60%</div>
-          <div className="description">of cloud workloads will be built and deployed using CDEs by 2026, <u>according to Gartner</u></div>
-        </div>
+        <button className="learn-more">Learn more about CDES></button>
       </div>
-      <button className="learn-more">Learn more about CDES></button>
-    </div>
 
 
 
-
-    <div className="Six">
+      <div className="Six">
       <h1 className="title5">One environment for</h1>
       <h1 className="title6"> the whole team.</h1>
       <h1 className="title7">Get always consistent development environments</h1>

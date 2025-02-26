@@ -5,19 +5,19 @@ import {  FaGithub, FaTwitter, FaGlobe, FaYoutube } from "react-icons/fa";
 
 function Pricing() {
   return (
-    <div>
-        <section className="heroo">
-      <p className="heroo-subtitle">Free to learn and experiment.</p>
-      <p className="heroo-subtitle">Pay as you grow.</p> 
-    </section>
 
+    <div>
+      <section className="heroo">
+        <p className="heroo-subtitle">Free to learn and experiment.</p>
+        <p className="heroo-subtitle">Pay as you grow.</p> 
+      </section>
       <footer className="footer">
-                <div className="footer-logo"><GrCodepen size={50} color='blue'/>
-                  <div className="logo-box">CodeBox</div>
-                </div>
-                <div className="footer-section">
-                  <h4>Use Cases</h4>
-                  <ul>
+        <div className="footer-logo"><GrCodepen size={50} color='blue'/>
+          <div className="logo-box">CodeBox</div>
+        </div>
+        <div className="footer-section">
+          <h4>Use Cases</h4>
+          <ul>
                     <li>Cloud Dev Environments</li>
                     <li>Code Reviews</li>
                     <li>Code in Sandboxes</li>

@@ -1,22 +1,17 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
-// import Placeholder from 'react-bootstrap/Placeholder';
 import { GrCodepen } from "react-icons/gr";
 import './FirstNav.css';
 
 function Function() {
   return (
     
-    
     <Navbar collapseOnSelect expand="lg" className="navbar-custom">
       <Container>
       
-        {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
         <Navbar.Collapse id="responsive-navbar-nav">
-
           {/* logo size and color */}
           <Nav className="logo-Box">                             
             <GrCodepen size={50} color='blue'/>  
