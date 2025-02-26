@@ -1,0 +1,269 @@
+                                                         /* features */
+.Feature {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  .titl {
+    font-size: 120px;
+    font-weight: 700;
+    margin: 0;
+    color: yellow;
+    line-height: 1;
+    /* margin-bottom: 4rem; */
+  }
+  .titl1 {
+    font-size: 120px;
+    font-weight: 700;
+    margin: 0;
+    color: yellow;
+    line-height: 1;
+    margin-bottom: 4rem;
+  }
+  .titl2 {
+    font-size: 30px;
+    margin: 20px 0;
+    color: #ccc;
+    line-height: 0.7;
+   
+  }
+
+  .feature-link {
+    font-size: 1.2rem;
+    color: #e0f70c; /* Light green color */
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .feature-link:hover {
+    text-decoration: underline;
+  }
+
+  .logo-box{
+    color: white;
+}
+
+
+
+
+                                                                    /* use case   and  support*/
+.hero {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .hero-title {
+    font-size: 90px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .hero-subtitle {
+    font-size: 30px;
+    margin: 20px 0;
+    color: #ccc;
+  }
+  
+  .hero-link {
+    font-size: 20px;
+    color: #9acd32; /* Light green color */
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .hero-link:hover {
+    text-decoration: underline;
+ }
+ .imag5{
+    text-align: center;
+}
+
+
+
+
+
+.button-container {                   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    text-align: justify;
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  
+  .rounded-button {
+    background-color: #1E1E1E;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rounded-button:hover {
+    background-color: #eddf25;
+}
+
+
+
+                                                                       /* resources */
+body {
+    background-color: #121212;
+  }
+
+.containerrr {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    gap: 20px;
+    max-width: 1000px;
+    max-height: 900px;
+    margin-left: 14rem;
+    
+  }
+  
+  .cardsss {
+    background-color: #1E1E1E;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
+  }
+  
+  .card-iconsss {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .cardsss h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .cardsss p {
+    margin-top: 5px;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+
+                                                             /* pricing */
+.heroo {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    line-height: 0.6;
+    font-weight: bold;
+    margin-top: 4rem;
+  }
+  
+  .heroo-subtitle {
+    font-size: 50px;
+    margin: 20px 0;
+    color:white;
+}
+
+
+                                                                                    /* Sign */
+.login{
+    padding-bottom: 30px;
+    margin-left: 50px;
+}
+
+
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+  }
+  
+  .signin-title {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-left: 60px;
+    
+  }
+  
+  .signin-subtitle {
+    color: gray;
+    margin-top: 0.5rem;
+    margin-left: 52px;
+  }
+  
+  .signin-buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 20rem;
+  }
+  
+  .github-button,
+  .google-button,
+  .apple-button 
+ 
+  {
+    background-color: #1f2937;
+    color: white;
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+
+ 
+  .row-buttons{
+    display: flex;
+    gap: 0.7rem;
+    width: 500px;
+  }
+
+
+  .github-button {
+    background-color: #facc15;
+    color: black;
+    width: 370px;
+  }
+
+
+  
+  .github-button:hover,
+  .google-button:hover,
+  .apple-button:hover {
+    background-color: #374151;
+  }
+  
+  .signin-sso {
+    margin-top: 80px;
+    color: rgb(247, 244, 244);
+    margin-left: 60px;
+  }
+  
+  .signin-terms {
+    margin-top: 0.5rem;
+    color: gray;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-left: 60px;
+  }
+  
+  .signin-link {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,54 @@
+
+.logo-Box{
+   padding-bottom: 2px;
+   padding-top: 7px;
+}
+
+
+.navbar-custom {
+    background-color: #f7f8f9;
+    padding: 2px 20px;
+    
+  }
+  
+  .navbar-custom .nav-link {
+    color: rgb(16, 16, 16);
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .try-btn {
+    font-weight: bold;
+    color: rgb(46, 44, 44) !important;
+    background-color: #007bff;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+  
+  .try-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .me-auto{
+    padding-left: 47px;
+    gap: 19px;
+    
+
+  }
+  
+.tryforfree{
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 0rem;
+  background-color: #e9f502; 
+  font-weight: bold;
+  border: 10px; 
+  cursor: pointer;
+  margin-right: 0%;
+  margin-left: 25px;
+
+}
