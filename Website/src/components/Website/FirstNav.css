@@ -1,45 +1,52 @@
 
 .logo-Box{
-   padding-bottom: 2px;
-   padding-top: 7px;
+  background-color: white;
+  padding-bottom: 12px;
+  padding-top: 7px;
+  padding-left: 8px;
+}
+
+.nav-first{
+  padding-left: 4px;
+  font-size: 17px;
+  text-decoration: none;
+  color: rgb(250, 11, 11);
+}
+
+.nav-first:hover{
+  text-decoration: underline;
+  color: rgb(219, 25, 154);
+}
+
+.nav-second{
+  padding-left: 45px;
+  margin-bottom: 14px;
+  padding-bottom: 9px;
+  font-size: 18px;
+  margin-left: 24px;
+  text-decoration: none;
+  color: rgb(250, 11, 11); 
 }
 
 
-.navbar-custom {
-    background-color: #f7f8f9;
-    padding: 2px 20px;
-    
-  }
+.nav-second:hover{
+  text-decoration: underline;
+  color: blue;
   
-  .navbar-custom .nav-link {
-    color: rgb(16, 16, 16);
-    font-weight: 500;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  .navbar-custom .nav-link:hover {
-    color: #007bff;
-  }
-  
-  .try-btn {
-    font-weight: bold;
-    color: rgb(46, 44, 44) !important;
-    background-color: #007bff;
-    padding: 5px 15px;
-    border-radius: 5px;
-  }
-  
-  .try-btn:hover {
-    background-color: #0056b3;
-  }
+}
 
-  .me-auto{
-    padding-left: 47px;
-    gap: 19px;
-    
+.nav-third{
+  margin-left: 394px;
+  font-size: 15px;
+  text-decoration: none;
+  color: blue;
 
-  }
-  
+}
+.nav-third:hover{
+  text-decoration: underline;
+  color: rgb(231, 90, 14);
+}
+
 .tryforfree{
   padding: 5px 10px;
   border-radius: 5px;
@@ -51,4 +58,6 @@
   margin-right: 0%;
   margin-left: 25px;
 
+
 }
+
